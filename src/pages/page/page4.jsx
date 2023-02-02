@@ -1,5 +1,9 @@
 import { Card } from "../../components/card/card"
 import tecnoblog  from "../../img/img1.png"
+import financas  from "../../img/img3.png"
+import museu  from "../../img/img1.png"
+import chale  from "../../img/img2.png"
+import noticias  from "../../img/img4.png"
 
 export const Page4=()=>{
     return(
@@ -7,29 +11,37 @@ export const Page4=()=>{
             <h2>Testes técnicos em andamentos</h2>
             <div>
             <Card
-                img={"/"}
+                src={chale}
                 alt={"Imagem do site"}
-                descricao="site do moseu"
+                descricao="site do museu"
                 tecnologias="html, css"
-                endereco="https://github.com/tainamiranda2/tecblog"
+                endereco="https://tainamiranda2.github.io/chale-hotel/"
                 /> 
+                
                     <Card
-                img={"/"}
+                src={financas}
+                alt={"Imagem do site"}
+                descricao="site sobre finanças"
+                tecnologias="html, css"
+                endereco="https://tainamiranda2.github.io/projeto-financas/"
+                />
+                 <Card
+                src={"/"}
                 alt={"Imagem do site"}
                 descricao="site chale hotel"
                 tecnologias="html, css"
                 endereco="https://tainamiranda2.github.io/site-de-vendas"
                 /> 
                  <Card
-                img={"/"}
+                src={noticias}
                 alt={"Imagem do site"}
                 descricao="site noticias da cidade"
                 tecnologias="html, css"
-                endereco="https://github.com/tainamiranda2/tecblog"
+                endereco="https://tainamiranda2.github.io/projeto-noticias-cidade/"
                 />  
                 <Card
                 img={"/"}
-                alt={"Imagem do site"}
+                src={"Imagem do site"}
                 descricao="site e vendas"
                 tecnologias="html, css"
                 endereco="https://tainamiranda2.github.io/site-de-vendas/"
