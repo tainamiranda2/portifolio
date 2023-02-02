@@ -1,0 +1,28 @@
+
+navbar{
+    background: #483D8B ;
+    padding: 10px;
+    width: 100%;
+display: inline-block;
+}
+
+ul li{
+ 
+padding: 20px;
+display: inline;
+
+}
+li{
+    list-style: none;
+    background: #fff;
+    color: #483D8B;
+}
+ul a{
+    text-decoration: none;
+    
+}
+ul li a:hover{
+    background:  #000;
+    color: #fff;
+    padding:10px;
+  }
