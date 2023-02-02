@@ -1,9 +1,10 @@
 .Barra{
-    padding: 2px;
+    padding: 10px;
     background: #483D8B;
 width: 100%;
     color: #fff;
     margin: 3px;
+    text-align: center;
 }
 .Barra a{
     text-decoration: none;

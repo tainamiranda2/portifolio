@@ -11,10 +11,8 @@ export const Home=()=>{
 
 <Barra end="/paga3" text="Testes técnicos concluídos"/>
 
-<Barra end="/paga4" text="Testes técnicos em andamento ..."/>
-<Barra end="/paga1" text="Projetos de curso/faculdade concluídos"/>
+<Barra end="/paga4" text="Projetos de curso/faculdade concluídos"/>
 
-<Barra end="/paga1" text="Projetos de curso/faculdade em andamento ..."/>
         </div>
     )
 }
