@@ -12,6 +12,7 @@ import { Page2 } from '../pages/page/page2'
 import { Page3 } from '../pages/page/page3'
 import { Page4 } from '../pages/page/page4'
 import { Experiencia } from '../pages/experiencia/experiencia'
+import { Formacao } from '../pages/formacao/formacao'
 
 
 export const Router=()=>{
@@ -21,6 +22,7 @@ export const Router=()=>{
         <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/sobre' element={<Sobre/>}/>
+            <Route path='/formacao' element={<Formacao/>}/>
 
             <Route path='/contatos' element={<Contato/>}/>
              <Route path='/experiencia' element={<Experiencia/>}/>

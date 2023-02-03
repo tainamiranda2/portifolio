@@ -8,3 +8,9 @@ h2{
     margin: 5px;
     color: #483D8B;
 }
+.homeLi{
+display: inline;
+}
+.homeLi li{
+  list-style:circle;
+}

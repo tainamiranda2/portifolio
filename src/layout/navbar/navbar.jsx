@@ -17,7 +17,10 @@ export const Navbar=()=>{
     <Link to="/contatos">Contato</Link>
     </li>
     <li>
-    <Link to="/experiencia">Experiencia</Link>
+    <Link to="/experiencia">Experiência</Link>
+    </li>
+    <li>
+    <Link to="/formacao">Formação</Link>
     </li>
 </ul>
 </navbar>
