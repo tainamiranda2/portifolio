@@ -14,7 +14,10 @@ export const Navbar=()=>{
     <Link to="/Sobre">Sobre</Link>
     </li>
     <li>
-    <Link to="/contatos">Contatos</Link>
+    <Link to="/contatos">Contato</Link>
+    </li>
+    <li>
+    <Link to="/experiencia">Experiencia</Link>
     </li>
 </ul>
 </navbar>

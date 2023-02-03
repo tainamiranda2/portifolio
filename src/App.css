@@ -3,3 +3,8 @@
     box-sizing: border-box;
     margin: 0;
 }
+h2{
+    text-align: center;
+    margin: 5px;
+    color: #483D8B;
+}

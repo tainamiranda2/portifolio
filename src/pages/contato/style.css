@@ -1,0 +1,33 @@
+form{
+    width:50%;
+    color: #483D8B ;
+    display: block;
+margin:auto;
+margin-top: 50px;
+margin-bottom: 50px;
+
+}
+input, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #483D8B;
+
+    border-left:none ;
+    border-right:none ;
+    border-top:none ;
+}
+    button {
+        background:#483D8B;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+       width: 100%;
+       margin: 5px;
+      }
+      
+      button:hover {
+        opacity: 0.8;
+      }

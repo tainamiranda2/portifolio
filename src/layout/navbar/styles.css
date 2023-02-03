@@ -1,16 +1,16 @@
 
 navbar{
     background: #483D8B ;
-    padding: 10px;
+    padding: 16px;
     width: 100%;
 display: inline-block;
 }
 
 ul li{
  
-padding: 20px;
+padding: 10px;
 display: inline;
-
+margin: 5px;
 }
 li{
     list-style: none;
@@ -26,3 +26,11 @@ ul li a:hover{
     color: #fff;
     padding:10px;
   }
+  @media screen and (max-width: 500px) {
+    nav{
+      display: block;
+    }
+    ul li {
+      display: block;
+    }
+}

@@ -1,0 +1,13 @@
+h3{
+    text-align: center;
+    margin: 5px;
+    color: #483D8B;
+}
+p,strong{
+margin: 5px;
+text-align: center;
+}
+ol{
+    margin: 10px;
+    color: #483D8B;
+}

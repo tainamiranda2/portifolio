@@ -6,7 +6,7 @@ export const Card=({src, alt,tecnologias,descricao, endereco})=>{
 
             <p>{descricao}</p>
         <p>{tecnologias}</p>
-            <a href={"endereco"}>{endereco}</a>
+            <a href={endereco}>{endereco}</a>
         </div>
     )
 }

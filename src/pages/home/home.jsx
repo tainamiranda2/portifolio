@@ -4,7 +4,7 @@ export const Home=()=>{
     return(
         <div>
             <h2>Tainá Miranda <strong>Desenvolvedora Júnior</strong></h2>
-<p>Carrosel</p>
+<p>Projeto em construção ...</p>
 <Barra end="/paga1" text="Projetos próprios conclúidos"/>
 
 <Barra end="/paga2" text="Projetos próprios em andamento ..."/>
