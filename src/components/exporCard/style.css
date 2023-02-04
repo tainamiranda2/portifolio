@@ -1,0 +1,29 @@
+h3{
+    text-align: center;
+    margin: 5px;
+    color: #483D8B;
+}
+p,strong{
+margin: 5px;
+text-align: center;
+}
+ol{
+    margin: 10px;
+    color: #483D8B;
+}
+.info{
+    border: solid #483D8B 1px;
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+    background: #483D8B;
+    
+}
+.sec{
+    border: solid #483D8B 1px;
+  
+    width: 90%;
+    margin:auto;
+margin-top: 50px;
+margin-bottom: 50px;
+}
