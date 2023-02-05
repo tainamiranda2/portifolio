@@ -1,4 +1,8 @@
 import { Card } from "../../components/card/card"
+import tecblog from '../../img/img1.png'
+import chale from '../../img/img2.png'
+import financas from '../../img/img3.png'
+import noticias from '../../img/img4.png'
 
 export const Page1=()=>{
     return(
@@ -6,40 +10,34 @@ export const Page1=()=>{
             <h2>Projetos própios conclúidos</h2>
             <div>
                 <Card
-                img={"/"}
+                src={tecblog}
                 alt={"Imagem do site"}
-                descricao="site "
+                descricao="site de um blog"
                 tecnologias="html, css"
-                endereco="https://github.com/tainamiranda2/tecblog"
+                endereco="https://tainamiranda2.github.io/tecblog/"
                 />
                   <Card
-                img={"/"}
+                src={chale}
                 alt={"Imagem do site"}
-                descricao="site "
+                descricao="site de uma chale"
                 tecnologias="html, css"
-                endereco="https://github.com/tainamiranda2/tecblog"
+                endereco="https://tainamiranda2.github.io/chale-hotel/"
                 />
                   <Card
-                img={"/"}
+                src={financas}
                 alt={"Imagem do site"}
-                descricao="site "
+                descricao="site sobre financas"
                 tecnologias="html, css"
-                endereco="https://github.com/tainamiranda2/tecblog"
+                endereco="https://tainamiranda2.github.io/projeto-financas/"
                 />
                   <Card
-                img={"/"}
+                src={noticias}
                 alt={"Imagem do site"}
                 descricao="site "
                 tecnologias="html, css"
-                endereco="https://github.com/tainamiranda2/tecblog"
+                endereco="https://tainamiranda2.github.io/projeto-noticias-cidade/"
                 />
-                  <Card
-                img={"/"}
-                alt={"Imagem do site"}
-                descricao="site "
-                tecnologias="html, css"
-                endereco="https://github.com/tainamiranda2/tecblog"
-                /> 
+                
             </div>
         </div>
     )
