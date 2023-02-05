@@ -8,7 +8,7 @@ export const Home=()=>{
 
 
         <article className="homeLi">
-<section>
+<section className="section-home">
     <h3>Hardskills</h3> 
  <li>Linguagem de programação: JavaScript, Typescript, php
 </li>
@@ -28,7 +28,7 @@ export const Home=()=>{
 <li>Conhecimento em: Padrões de projeto, metodologia Scrum 
 </li>
 </section>
-<section>
+<section className="section-home">
 <h3>Softskill</h3>
 <li>Pró-atividade,organização e foco no resultado</li>
 <li>Bom relacionamento interpessoal 
@@ -43,6 +43,7 @@ export const Home=()=>{
 
 
     <h3>Acesse as paǵinas com os conteúdos em questão ...</h3>
+<div className="barra">
 <Barra end="/paga1" text="Projetos próprios conclúidos"/>
 
 <Barra end="/paga2" text="Projetos próprios em andamento ..."/>
@@ -50,7 +51,7 @@ export const Home=()=>{
 <Barra end="/paga3" text="Testes técnicos concluídos"/>
 
 <Barra end="/paga4" text="Projetos de curso/faculdade concluídos"/>
-
+</div>
         </div>
     )
 }

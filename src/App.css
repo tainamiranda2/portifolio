@@ -10,7 +10,25 @@ h2{
 }
 .homeLi{
 display: inline;
+
 }
 .homeLi li{
   list-style:circle;
+  margin: 4px;
+}
+.section-home{
+    border: solid 3px #483D8B;
+margin: 5px;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+/*.section-home:hover{
+    background: #483D8B;
+   
+}*/
+.barra{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
 }

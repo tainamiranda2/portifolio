@@ -1,12 +1,17 @@
 .Barra{
-    padding: 10px;
-    background: #483D8B;
-width: 100%;
-    color: #fff;
+    padding:2px 16px;
     margin: 3px;
-    text-align: center;
+    background: #483D8B;
+    width:50%;
+    transition: 0.3s;
 }
 .Barra a{
     text-decoration: none;
     color: #fff;
+    width: 100%;
+
+}
+.Barra:hover{
+    box-shadow: 0 8px 18px 0 rgba(0,0,0, 0.2);
+cursor: pointer;
 }
