@@ -8,9 +8,10 @@ import noticias  from "../../img/img4.png"
 export const Page4=()=>{
     return(
         <div>
-            <h2>Testes técnicos em andamentos</h2>
+            <h2>Projetos em faculdade e cursos</h2>
+            <p>Em breve mais conteudos</p>
             <div>
-            <Card
+       {/**    <Card
                 src={chale}
                 alt={"Imagem do site"}
                 descricao="site do museu"
@@ -53,6 +54,7 @@ export const Page4=()=>{
                 tecnologias="html, css"
                 endereco="https://github.com/tainamiranda2/tecblog"
                 />
+                */}  
             </div>
         </div>
     )
