@@ -5,8 +5,20 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    
+    color: #483D8B;
 }
 img{
     width: 100%;
+}
+a{
+    text-decoration: none;
+ color: #000;
+    margin: auto;
+}
+a:hover{
+color: #fff;
+}
+.Card:hover{
+background: #483D8B;
+color: #fff;
 }

@@ -4,9 +4,9 @@ export const Card=({src, alt,tecnologias,descricao, endereco})=>{
         <div className="Card">
             <img src={src} alt={alt}/>
 
-            <p>{descricao}</p>
-        <p>{tecnologias}</p>
-            <a href={endereco}>{endereco}</a>
+            <p><strong>Descrição</strong>  - {descricao}</p>
+        <p><strong>Tecnologias utilizadas</strong>  - {tecnologias}</p>
+           <a href={endereco}>Link do site - {endereco}</a>
         </div>
     )
 }

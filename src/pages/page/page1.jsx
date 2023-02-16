@@ -1,43 +1,23 @@
 import { Card } from "../../components/card/card"
-import tecblog from '../../img/img1.png'
-import chale from '../../img/img2.png'
-import financas from '../../img/img3.png'
-import noticias from '../../img/img4.png'
-
+import eventos from '../../img/img8.png'
 export const Page1=()=>{
+    function goBack() {
+        window.history.back()
+    }
     return(
         <div>
+          {/*  <button className="Voltar" onclick={goBack}>Voltar</button>*/} 
             <h2>Projetos própios conclúidos</h2>
+            <p>Em breve mais projeto serão adicionados</p>
             <div>
-                <Card
-                src={tecblog}
+               
+            <Card
+                src={eventos}
                 alt={"Imagem do site"}
                 descricao="site de um blog"
-                tecnologias="html, css"
-                endereco="https://tainamiranda2.github.io/tecblog/"
+                tecnologias="html, css, react, nodejs"
+                endereco="https://pub-fiction-react.vercel.app/"
                 />
-                  <Card
-                src={chale}
-                alt={"Imagem do site"}
-                descricao="site de uma chale"
-                tecnologias="html, css"
-                endereco="https://tainamiranda2.github.io/chale-hotel/"
-                />
-                  <Card
-                src={financas}
-                alt={"Imagem do site"}
-                descricao="site sobre financas"
-                tecnologias="html, css"
-                endereco="https://tainamiranda2.github.io/projeto-financas/"
-                />
-                  <Card
-                src={noticias}
-                alt={"Imagem do site"}
-                descricao="site "
-                tecnologias="html, css"
-                endereco="https://tainamiranda2.github.io/projeto-noticias-cidade/"
-                />
-                
             </div>
         </div>
     )

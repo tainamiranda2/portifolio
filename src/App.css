@@ -31,4 +31,14 @@ margin-right: auto;
     margin-top: 10px;
     margin-bottom: 50px;
     display: flex;
+   
+}
+.Voltar{
+    width: 30%;
+}
+@media screen and (max-width: 500px) {
+.barra{ 
+    display: inline;
+    width: 50%;
+}
 }

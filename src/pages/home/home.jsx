@@ -35,7 +35,7 @@ export const Home=()=>{
 </li>
 <li>Trabalho em equipe
 </li>
-<li>Criativa</li>
+<li>Criatividade</li>
 
 </section>
         </article>
