@@ -1,9 +1,10 @@
 .Barra{
-    padding:2px 16px;
+    padding: 16px;
     margin: 3px;
     background: #483D8B;
     width:50%;
     transition: 0.3s;
+    border-radius: 50px;
 }
 .Barra a{
     text-decoration: none;

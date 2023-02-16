@@ -9,17 +9,17 @@ h2{
     color: #483D8B;
 }
 .homeLi{
-display: inline;
 
+display: inline;
 }
 .homeLi li{
   list-style:circle;
-  margin: 4px;
+  margin: 14px;
 }
 .section-home{
     border: solid 3px #483D8B;
-margin: 5px;
-width: 90%;
+margin-bottom: 50px;
+width: 75%;
 margin-left: auto;
 margin-right: auto;
 }
@@ -29,7 +29,7 @@ margin-right: auto;
 }*/
 .barra{
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     display: flex;
    
 }

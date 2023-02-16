@@ -26,7 +26,12 @@ ul li a:hover{
     color: #fff;
     padding:10px;
   }
-  @media screen and (max-width: 500px) {
+  
+  @media screen and (max-width: 600px) {
+  
+.button-nav{
+  display: block;
+}
     nav{
       display: block;
     }

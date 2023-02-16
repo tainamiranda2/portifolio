@@ -12,8 +12,8 @@ export const Page3=()=>{
                 alt={"Imagem do site"}
                 descricao="Objetivo: construir uma aplicação que cadastra-se jogadores e times"
                 tecnologias="html, css, react, prisma, postgre, javascript"
-                endereco="https://crud-user-php.000webhostapp.com/moto-evolue/"
-                /> 
+               repositorio={'https://github.com/tainamiranda2/e-sports/'}
+               /> 
             <Card
                 src={moto}
                 alt={"Imagem do site"}
@@ -25,9 +25,9 @@ export const Page3=()=>{
                 src={cafe}
                 alt={"Imagem do site"}
                 descricao="Objetivo: consumir uma api"
-                tecnologias="html, css, "
-                endereco="https://tainamiranda2.github.io/chale-hotel/"
-                /> 
+                tecnologias="html, css, react, tailwind css"
+              repositorio={'https://github.com/tainamiranda2/coffee'}
+              /> 
         </div>
     )
 }
