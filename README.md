@@ -1,6 +1,5 @@
-## Este é o meu portifólio online e eu desenvolvi utilizando as seguintes tecnologias.
+## Este é o meu portifólio online e eu desenvolvi com react e utilizei as seguintes recursos desta tecnologias.
  
-## react.js
 ### react routes
 ### componentes 
 
