@@ -3,6 +3,15 @@ import './style.css'
 export const Experiencia=()=>{
     return(
         <div>
+               <Expor
+  title='JCM,  Belo Hozonte - Al - Contrato, Full Stack developer JR'
+  img={'/'}
+  periodo='Abril, de 2023 - Atual'
+  nomeAtividade="Atividades"
+  descricao='Manutenção em um sistema legado, resolução de bugs e implementação de melhorias.'
+  linguagem='github, mysql, php, cakephp, bootstrap, javascript, html, css, docker'
+
+  />
               <Expor
   title='Semec,  Maceio - Al - Estágio, Full Stack developer'
   img={'/'}

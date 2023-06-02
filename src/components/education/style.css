@@ -1,6 +1,49 @@
 
 .education{
-    width: 90%;
-    border: solid #483D8B 1px;
-margin: 10px;
+margin: auto;
+
+width: 300px;
+height: 300px;
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 10px;
+
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+.education img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.education-info{
+    margin-bottom: 10px;
+}
+.education-info h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.education-info p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* width: 80%;
+    border: solid #483D8B 1px;
+margin-bottom: 10px;
+margin: auto;
+margin-top: 10px;
+.education-info{
+    display: block;
+    
+}
+span{
+    color: #483D8B;
+}
+img{
+    border: solid 1px #483D8B;
+    width: 20%;
+    margin: 10px;
+}
+
+/*
