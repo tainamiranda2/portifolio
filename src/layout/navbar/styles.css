@@ -1,41 +1,76 @@
-
-navbar{
-    background: #483D8B ;
-    padding: 16px;
-    width: 100%;
-display: inline-block;
+.navbar {
+  background: #483d8b;
+  padding: 16px;
 }
 
-ul li{
- 
-padding: 10px;
-display: inline;
-margin: 5px;
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-li{
-    list-style: none;
-    background: #fff;
-    color: #483D8B;
+
+.navbar-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
-ul a{
-    text-decoration: none;
-    
+
+.toggle-icon {
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background: white;
+  transition: transform 0.3s ease-in-out;
 }
-ul li a:hover{
-    background:  #000;
-    color: #fff;
-    padding:10px;
+
+.toggle-icon.active {
+  transform: rotate(45deg);
+}
+
+.toggle-icon::before,
+.toggle-icon::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+.toggle-icon.active::before {
+  transform: translateY(8px) rotate(90deg);
+}
+
+.toggle-icon.active::after {
+  transform: translateY(-8px) rotate(90deg);
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-left: 10px;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (min-width: 600px) {
+  .navbar-toggle {
+    display: none;
   }
   
-  @media screen and (max-width: 600px) {
+  .navbar-menu {
+    display: flex;
+  }
   
-.button-nav{
-  display: block;
-}
-    nav{
-      display: block;
-    }
-    ul li {
-      display: block;
-    }
+  .navbar-item {
+    margin-left: 10px;
+  }
 }

@@ -1,41 +1,48 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import './styles.css';
+import "./styles.css";
 
-export const Navbar=()=>{
-const [ativado,setAtivado]=useState(true)
+export const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
-    return(
-<navbar>
- 
-<div >
-   {ativado?  ativado && (
- <ul>
- <li>
- <Link to="/">Home</Link>
- </li>
- <li>
- <Link to="/Sobre">Sobre</Link>
- </li>
- <li>
- <Link to="/contatos">Contato</Link>
- </li>
- <li>
- <Link to="/experiencia">Experiência</Link>
- </li>
- <li>
- <Link to="/formacao">Formação</Link>
- </li>
- <button className="button-nav" onClick={() => setAtivado(!ativado)} >Fechar</button>
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
- </ul>
-
-  ) :(
-<button className="button-nav" onClick={() => setAtivado(!ativado)} >Ver</button>
-   )}
-   
-</div>
-
-</navbar>
-    )
-}
+  return (
+    <nav className="navbar">
+      <div className="navbar-container">
+        <button className="navbar-toggle" onClick={toggleMenu}>
+          <span className={`toggle-icon ${isOpen ? "active" : ""}`}></span>
+        </button>
+        <ul className={`navbar-menu ${isOpen ? "active" : ""}`}>
+          <li className="navbar-item">
+            <Link to="/" onClick={toggleMenu}>
+              Home
+            </Link>
+          </li>
+          <li className="navbar-item">
+            <Link to="/sobre" onClick={toggleMenu}>
+              Sobre
+            </Link>
+          </li>
+          <li className="navbar-item">
+            <Link to="/contatos" onClick={toggleMenu}>
+              Contato
+            </Link>
+          </li>
+          <li className="navbar-item">
+            <Link to="/experiencia" onClick={toggleMenu}>
+              Experiência
+            </Link>
+          </li>
+          <li className="navbar-item">
+            <Link to="/formacao" onClick={toggleMenu}>
+              Formação
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+};
