@@ -14,7 +14,8 @@ export const Formacao=()=>{
             Fev de 2020 - Atual'
 
             />
-           
+           <br/>
+
             <div className='formacao'>
             <Education
             img={udemy}
@@ -22,12 +23,14 @@ export const Formacao=()=>{
             descricao='Inglês  - Intermediário/B1 - 50 horas, Fev de 2020 - Dez de 2020'
                 
                 />
-                
+                           <br/>
+
              <Education
             img={udemy}
             escola='udemy - Cursos online'
             descricao='Nodejs avançado - Javascript, Css, Html, Vuejs, Node, mongodb, mysql - 260 horas, Fev de 2020 - Dez de 2020'
             />
+           <br/>
 
              <Education
             title='Desenvolvimento web'
@@ -35,6 +38,8 @@ export const Formacao=()=>{
             escola='udemy - Cursos online'
             descricao=' Php, Mysql, bootstrap, WordPress, html e css -  80 horas, Jan de 2021 - Jun de 2021'
             />
+                       <br/>
+
              <Education
             title='Javascript do básico ao avançado'
             img={udemy}

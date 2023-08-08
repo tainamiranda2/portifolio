@@ -27,3 +27,12 @@ ol{
 margin-top: 50px;
 margin-bottom: 50px;
 }
+.desc-empresa{
+border: solid 1px #483D8B;
+}
+
+.link-site:hover{
+ color: #483D8B;
+ padding: 30px;
+ 
+}

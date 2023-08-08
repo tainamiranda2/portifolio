@@ -1,6 +1,6 @@
 import './style.css'
 export const Expor=({
-    src, linguagem,linguagemDesc,
+    src, linguagem,Desc,
     periodo, title,
      nomeAtividade,
      descricao,site})=>{
@@ -12,9 +12,10 @@ export const Expor=({
                 <strong>{periodo}</strong>
                 <p className="info"><strong>{nomeAtividade}</strong> {descricao}</p>
                 <section  className='homeLi'>
-<li>{linguagem} - {linguagemDesc}</li>
+<li>{linguagem}</li>
                 </section>
-                <a href={site}>{site}</a>
+                <a className='link-site' href={site}>{site}</a> 
+                 <p className='desc-empresa'>Sobre a empresa: {Desc}</p>
             </main>
         </div>
     )
